@@ -124,6 +124,8 @@ body {
     .image-item {
         width: 100%;
         height: auto;
+        margin: 0;
+        padding: 0;
     }
 
     .description {
@@ -131,6 +133,7 @@ body {
     }
 
     .image-item img {
+        width: 20%;
         object-fit: cover;
     }
 }
