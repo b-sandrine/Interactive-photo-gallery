@@ -31,11 +31,7 @@ var result = hasContiguousSubarray(array, target)
 
 if(result !== null) {
     console.log("Output: true")
-    console.log("Explaination: The subarray [ ",)
-    for(var i = 0;i< result.length;i++){
-        console.log(result[i] + ' ,')
-    }
-    console.log("which is equal to the target.")
+    console.log("Explaination: The subarray", result + " which is equal to the target.")
 }
 else {
     console.log("Output: false")
