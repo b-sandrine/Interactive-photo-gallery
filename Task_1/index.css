@@ -40,7 +40,7 @@ body {
     width: 100%;
     height: 100%;
     display: block;
-    transition: transform 1s, filter 1s;
+    transition: transform 0.5s, filter 0.5s;
 }
 
 
@@ -63,6 +63,7 @@ body {
     color: white;
     text-align: left;
     width: 80%;
+    transition: transform 0.5s, filter 0.5s;
 
 }
 
@@ -89,7 +90,7 @@ body {
 
 .image-item:hover img {
     transform: scale(1.1);
-    filter: grayscale(100%);
+    filter: grayscale(100%) blur(5px);
 }
 
 .image-item:hover .description {
@@ -101,6 +102,10 @@ body {
 .image-item:hover .description a {
     opacity: 1;
     transform: translateY(-10px);
+}
+
+.description p {
+    font-weight: 100;
 }
 
 .description a {
