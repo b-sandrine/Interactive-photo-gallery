@@ -12,7 +12,7 @@ cd Interactive-photo-gallery
 
 1. Open file explorer 
 2. Navigate to the directory you saved the project
-3. Double click on index.js
+3. Double click on index.html
 
 # Run the second task 
 
